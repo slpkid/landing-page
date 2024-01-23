@@ -13,7 +13,6 @@
     color: #f9faf8;
 }
 .header {
-    border: 1px solid blue;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,4 +26,45 @@
     list-style: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.intro {
+    display: flex;
+}
+
+.intro > * {
+    flex: 1;
+    border: 1px solid blue;
+}
+
+.intro-header-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.intro-text p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.intro button {
+    background-color: #3882f6;
+    color: white;
+    font-weight:bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.img-container {
+    background: gray;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-container p{
+    justify-self: auto;
+    color: white;
 }
